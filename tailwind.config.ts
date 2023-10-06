@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         offwhite: "#F5F5F7",
+        sectitle: "rgba(0, 0, 0, 0.6)",
       },
     },
   },
