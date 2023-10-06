@@ -1,5 +1,5 @@
+import Sugestion from "@/components/Sugestion";
 import Title from "@/components/Title";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,6 +8,12 @@ export default function Home() {
         <Title
           text="Loja."
           secText="O melhor jeito de comprar o que você ama."
+        />
+      </div>
+      <div>
+        <Sugestion
+          question="Precisa de ajuda para comprar?"
+          link="Fale com um especialista"
         />
       </div>
     </div>
