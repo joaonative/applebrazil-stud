@@ -4,7 +4,7 @@ import React from "react";
 const NavBarItem = ({ title }: { title: string }) => {
   return (
     <Link href={`/${title.toLocaleLowerCase()}`}>
-      <p className="text-xs font-light">{title}</p>
+      <p className="text-xs font-regular">{title}</p>
     </Link>
   );
 };

@@ -3,7 +3,7 @@ import NavBarItem from "./NavBarItem";
 
 const NavBar = () => {
   return (
-    <header className="flex flex-row justify-center items-center gap-12">
+    <header className="flex flex-row justify-center items-center gap-12 py-5">
       <img src="/applelogo.svg" alt="apple logo" />
       <NavBarItem title="Loja" />
       <NavBarItem title="Mac" />
@@ -11,10 +11,12 @@ const NavBar = () => {
       <NavBarItem title="iPhone" />
       <NavBarItem title="Watch" />
       <NavBarItem title="AirDots" />
-      <NavBarItem title="Tv e casa" />
+      <NavBarItem title="TV e casa" />
       <NavBarItem title="Entreterimento" />
       <NavBarItem title="Acessorios" />
       <NavBarItem title="Suporte" />
+      <img src="/search.svg" alt="apple logo" />
+      <img src="/shop.svg" alt="apple logo" />
     </header>
   );
 };
