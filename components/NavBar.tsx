@@ -1,9 +1,11 @@
 import React from "react";
 import NavBarItem from "./NavBarItem";
+import Sugestion from "./Sugestion";
+import Title from "./Title";
 
 const NavBar = () => {
   return (
-    <header className="flex flex-row justify-center items-center gap-12 py-5">
+    <header className="flex flex-row items-center justify-between mx-80 my-2">
       <img src="/applelogo.svg" alt="apple logo" />
       <NavBarItem title="Loja" />
       <NavBarItem title="Mac" />
