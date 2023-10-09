@@ -12,7 +12,7 @@ const Section = ({
 }) => {
   return (
     <section className="flex flex-col gap-5">
-      <Title text={sectionTitle} secText={sectionSecTitle} />
+      <Title text={sectionTitle} secText={sectionSecTitle} sm />
       {children}
     </section>
   );
