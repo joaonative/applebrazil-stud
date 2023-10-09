@@ -15,7 +15,7 @@ const NewCard = ({
 }) => {
   return (
     <div
-      className={`flex flex-col justify-start gap-4 px-5 py-10 rounded-2xl w-[400px] h-[500px] bg-cover ${bg} ${
+      className={`flex flex-col justify-start gap-4 px-5 py-10 rounded-2xl w-[400px] h-[500px] bg-cover card ${bg} ${
         white ? "text-white" : "text-black"
       }`}
     >
