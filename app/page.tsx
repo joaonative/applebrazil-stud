@@ -1,6 +1,9 @@
+import AdvantagesSection from "@/components/AdvantagesSection";
 import BuyCards from "@/components/BuyCards";
+import HelpSection from "@/components/HelpSection";
 import HeroSection from "@/components/HeroSection";
 import NewsSection from "@/components/NewsSection";
+import PromotionalSection from "@/components/PromotionalSection";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <HeroSection />
       <BuyCards />
       <NewsSection />
+      <HelpSection />
+      <AdvantagesSection />
+      <PromotionalSection />
     </div>
   );
 }
